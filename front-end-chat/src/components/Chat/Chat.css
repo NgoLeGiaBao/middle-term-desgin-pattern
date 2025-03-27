@@ -1,0 +1,113 @@
+.chat-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.connect-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.connect-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.connect-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.connect-form button:hover {
+    background-color: #45a049;
+}
+
+.messages-container {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.message {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    word-break: break-word;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-area input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.button-group button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button-group button:first-child {
+    background-color: #2196F3;
+    color: white;
+}
+
+.button-group button:first-child:hover {
+    background-color: #0b7dda;
+}
+
+.button-group button:nth-child(2) {
+    background-color: #FF9800;
+    color: white;
+}
+
+.button-group button:nth-child(2):hover {
+    background-color: #e68a00;
+}
+
+.undo-button {
+    background-color: #f44336 !important;
+    color: white !important;
+}
+
+.undo-button:hover {
+    background-color: #da190b !important;
+}
