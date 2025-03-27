@@ -7,7 +7,8 @@
 - [Node.js](https://nodejs.org/) (v18+)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-### 1. Start Backend (C# .NET 9)
+
+### Implement Project
 ```bash
 # Open first terminal
 cd back-end-chat
