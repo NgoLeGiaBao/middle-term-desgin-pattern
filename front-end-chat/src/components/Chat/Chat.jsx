@@ -11,7 +11,7 @@ const Chat = () => {
 
     useEffect(() => {
         fetchMessageHistory();
-        const interval = setInterval(fetchMessageHistory, 20000);
+        const interval = setInterval(fetchMessageHistory, 1000);
         return () => clearInterval(interval);
     }, []);
 
@@ -85,7 +85,6 @@ const Chat = () => {
                         ))}
                         <div ref={messagesEndRef} />
                     </div>
-                    
                     <div className="input-area">
                         <input
                             type="text"

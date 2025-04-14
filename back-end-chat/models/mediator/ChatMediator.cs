@@ -14,6 +14,7 @@ public class ChatMediator : IChatMediator
 
     public void RegisterUser(User user) => _users.Add(user);
 
+
     public void SendMessage(string message, User sender)
     {
         var messageWithTimestamp = $"[{DateTime.Now:HH:mm:ss}] {sender.Name}: {message}";
